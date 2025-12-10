@@ -31,25 +31,33 @@
 
 	<script type="application/ld+json">
 		{
-		"@context": "https://schema.org",
-		"@type": "LocalBusiness",
-		"name": "Nina Carducci Photographe",
-		"image": "https://nina-carducci.github.io/assets/images/nina.webp",
-		"url": "https://nina-carducci.github.io/",
-		"description": "Photographe professionnelle à Bordeaux : portraits, entreprises, mariages et retouches.",
-		"address": {
-			"@type": "PostalAddress",
-			"streetAddress": "68 avenue Alsace-Lorraine",
-			"addressLocality": "Bordeaux",
-			"postalCode": "33200",
-			"addressCountry": "FR"
-		},
-		"telephone": "+33 5 56 67 78 89",
-		"priceRange": "€€",
-		"sameAs": [
-			"https://www.instagram.com/nina-carducci",
-			"https://www.facebook.com/nina-carducci"
-		]
+			"@context": "https://schema.org",
+			"@type": "LocalBusiness",
+			"name": "Nina Carducci Photographe",
+			"image": "https://nina-carducci.github.io/assets/images/nina.webp",
+			"url": "https://nina-carducci.github.io/",
+			"description": "Photographe professionnelle à Bordeaux : portraits, entreprises, mariages et retouches.",
+			"address": {
+					"@type": "PostalAddress",
+					"streetAddress": "68 avenue Alsace-Lorraine",
+					"addressLocality": "Bordeaux",
+					"postalCode": "33200",
+					"addressCountry": "FR"
+				},
+			"openingHoursSpecification": [
+				{
+				"@type": "OpeningHoursSpecification",
+				"dayOfWeek": [
+						"Monday",
+						"Tuesday",
+						"Wednesday",
+						"Thursday",
+						"Friday"
+					],
+				"opens": "10:00",
+				"closes": "19:00"
+				}
+			]
 		}
 	</script>
 
